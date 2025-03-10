@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\nouns\mostly-noun-phrases.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\nouns\mostly-nouns-ment.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\nouns\mostly-nouns.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\nouns\mostly-plural-nouns.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\other-categories\ly-adverbs.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\other-categories\mostly-adjectives.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\other-categories\mostly-adverbs.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\other-categories\mostly-conjunctions.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\other-categories\mostly-interjections.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\other-categories\mostly-prepositions.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\verbs\mostly-verbs-infinitive.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\verbs\mostly-verbs-past-tense.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\verbs\mostly-verbs-present-tense.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\verbs\transitive-past-tense.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\English-word-lists-parts-of-speech-approximate\verbs\transitive-present-tense.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Resources\Idioms.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
